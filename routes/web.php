@@ -17,12 +17,5 @@ Route::get('/', function () {
     return view('main');
 });
 
-Route::get('/nosotros', function () {
-    return view('nosotros');
-});
-
-Route::get('/tienda', function () {
-    return view('tienda');
-});
 
 
